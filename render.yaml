@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: telegram-smart-shopbot
+    env: python
+    plan: free
+    buildCommand: ""
+    startCommand: "python main.py"
